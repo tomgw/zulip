@@ -433,6 +433,9 @@ class Filter {
         // that early-exits before the subsequent checks.
         // (in which case, is_common_narrow would also need to be modified)
 
+// Tom Welter jan 2020, do not mark as read in intererleaved view.
+return false;
+
         if (_.isEqual(term_types, ["stream"])) {
             return true;
         }
