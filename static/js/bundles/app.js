@@ -227,6 +227,7 @@ import "../../styles/hotspots.css";
 import "../../styles/night_mode.css";
 import "../../styles/user_status.css";
 import "../../styles/widgets.css";
+import "../../styles/custom.css";
 
 // This should be last.
 import "../ready";
