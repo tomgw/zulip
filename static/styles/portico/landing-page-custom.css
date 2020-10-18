@@ -1,0 +1,74 @@
+/*  Background image */
+body {
+    background: url(../../images/backgrounds/login-page-20.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* ZULIP At the top of the signin screen */
+.new-style .get-started {
+    color: hsl(0, 0%, 40%);
+}
+
+/* white login box, center of the page */
+.white-box {
+
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 4px hsla(0, 0%, 0%, 0.1);
+    border: 1px hsl(0, 0%, 87%);
+    border-radius: 4px;
+}
+
+/* server url (under organization name) */
+.info-box .organization-path {
+    color: hsl(0, 0%, 47%);
+}
+
+/*  colors for devlogin, better to have a grey background */
+.login-page-container input[type=submit].btn-admin {
+    border-color: hsl(170, 41%, 52%);
+    color: hsl(170, 41%, 52%);
+}
+
+
+/* left border of login button */
+.split-view .left-side + .right-side {
+    border-left: 1px solid hsl(0, 0%, 93%);
+    /* this is to make sure the borders of the left and right side overlap
+       each other. */
+}
+
+/* right border of company info */
+.split-view .left-side {
+    border-right: 1px solid hsl(0, 0%, 93%);
+}
+
+/* labels for login  en password  */
+.new-style .input-box label {
+}
+
+/* labels for login and password when focussed */
+.new-style .input-box label,
+.new-style .input-box input[type=text]:focus + label,
+.new-style .input-box input[type=email]:focus + label,
+.new-style .input-box input[type=password]:focus + label,
+.new-style .input-box input[type=text]:valid + label,
+.new-style .input-box input[type=email]:valid + label,
+.new-style .input-box input[type=password]:valid + label {
+    color: hsl(0, 0%, 90%);
+}
+
+/* "Forgot your password" and "Signup" */
+.split-view .actions a,
+.back-to-login {
+    color: hsl(164, 100%, 23%);
+}
+
+/* "Forgot your password" and "Signup" when hovered */
+.split-view .actions a:hover,
+.back-to-login:hover {
+    text-decoration: none;
+    color: transparent;
+}

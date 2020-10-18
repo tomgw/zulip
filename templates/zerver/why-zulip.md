@@ -1,3 +1,6 @@
+### <div align="center">At IUCN Netherlands Committee we go by the name 'Streams'.</div>
+## <div align="center">But it is really still Zulip!</div>
+
 There are a lot of team chat apps. So why did we build Zulip?
 
 We talk about Slack in the discussion below, but the problems apply equally

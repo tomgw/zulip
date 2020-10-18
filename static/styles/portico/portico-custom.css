@@ -1,0 +1,30 @@
+/* customized portico.scss
+ Tom Welter, IUCN NL okt 2020 */
+ /*  Background image */
+body {
+  background-image:url(../../images/backgrounds/login-page.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+/*
+     background: url(../../images/backgrounds/login-page-20.png) no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ */
+}
+
+
+/* header of bottom menu */
+.footer section h3 {
+    color: hsl(0,0%,90%) !important;
+}
+
+.footer section ul {
+    color: hsl(0, 0%, 90%) !important;
+}
+
+.devlogin_subheader {
+color: white !important;
+}

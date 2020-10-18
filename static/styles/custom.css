@@ -1,0 +1,79 @@
+/* logo box on top left
+ higth and widht adapted to allign with left sidebar below it.
+ kleur is #003f79 */
+.column-left {
+    height: 50px;
+	  width: 242px;
+	  background-color: hsl(209, 100%, 24%);
+}
+
+/* left side bar with stream names etc
+ height exended to bottom of page */
+.left-sidebar {
+    background-color: hsl(209, 100%, 24%) ;
+	  color: white;
+	  height: calc(100vh - 50px);
+}
+
+/*left sidebar popup for narrow screens */
+.narrows_panel {
+ 	  background-color: hsl(209, 100%, 24%) ;
+}
+
+/* selected stream name in left sidebar */
+li.active-filter,
+    li.active-sub-filter {
+    background-color: hsl(93, 18%, 82%);
+    border-radius: 4px;
+    color: black;
+}
+
+/* topic list of the selected stream */
+ul.topic-list {
+    background-color: #1980a9;
+    color:white;
+}
+
+/* hover over items in the left column */
+.top_left_row:hover,
+.bottom_left_row:hover,
+#stream_filters li.highlighted_stream {
+    background-color: hsla(93, 18%, 82%, 0.8);
+    border-radius: 4px;
+    color: black;
+}
+
+/* topic header bar: to right of person name in main column */
+.message_header_private_message {
+    background-color: #7dccec;
+}
+
+/* topic header bar: to right of topic name in main column */
+.message-header-contents {
+    background-color: #7dccec;
+}
+
+/* unset above colors for nightmode */
+body.night-mode{
+	.column-left  {
+		color: unset;
+		background-color: unset;
+	}
+	.left-sidebar  {
+		background-color: unset;
+		color: unset;
+	}
+  .narrows_panel {
+    background-color: unset ;
+  }
+  ul.topic-list {
+    background-color: unset;
+    color:unset;
+  }
+  li.active-filter,
+    li.active-sub-filter {
+    background-color: unset;
+    color: unset;
+  }
+
+}

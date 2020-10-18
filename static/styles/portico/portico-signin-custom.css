@@ -1,0 +1,97 @@
+/* Background image */
+body {
+/* background-image:url(../../images/backgrounds/login-page-20.png);
+background-repeat: no-repeat;
+
+/*    background: url(../../images/backgrounds/page.png) no-repeat center center fixed;
+
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+*/
+}
+
+
+/* ZULIP At the top of the signin screen */
+.new-style .get-started {
+    color: black !important;
+}
+
+
+/* white login box, center of the page */
+.white-box {
+    background-color: transparent  !important ;
+    box-shadow: 0px 0px 4px transparent;
+    border: 0px transparent !important;
+    border-radius: 4px;
+    color: white ;
+}
+
+/* server url (under organization name) */
+.info-box .organization-path {
+      color: white !important;
+}
+
+/*  colors for devlogin, better to have a grey background */
+.login-page-container input[type=submit].btn-admin {
+   border-color: white !important;
+   color: white !important;
+}
+
+/* left border of login button */
+.split-view .left-side + .right-side {
+    border-left: 0px solid white !important;
+    /* this is to make sure the borders of the left and right side overlap
+       each other. */
+}
+
+/* right border of company info */
+.split-view .left-side {
+    border-right: 0px solid hsl(0, 0%, 93%) !important;
+}
+
+/* labels for login  en password */
+.new-style .input-box label {
+      color: hsl(0,0%,50%) !important;
+}
+
+/*
+//.new-style .input-box input[type=text]:focus:invalid,
+//.new-style .input-box input[type=email]:focus:invalid,
+//.new-style .input-box input[type=password]:focus:invalid {
+//    box-shadow: none;
+//    color: hsl(0, 0%, 27%);
+//}
+*/
+
+.new-style .input-box input[type=text]:focus,
+.new-style .input-box input[type=email]:focus,
+.new-style .input-box input[type=password]:focus {
+    border: 3px solid hsl(144, 53% , 44%) !important;
+}
+
+
+/* labels for login and password when focussed */
+.new-style .input-box label,
+.new-style .input-box input[type=text]:focus + label,
+.new-style .input-box input[type=email]:focus + label,
+.new-style .input-box input[type=password]:focus + label,
+.new-style .input-box input[type=text]:valid + label,
+.new-style .input-box input[type=email]:valid + label,
+.new-style .input-box input[type=password]:valid + label {
+    color: hsl(0, 0%, 90%) !important;
+}
+
+/* "Forgot your password" and "Signup" */
+.split-view .actions a,
+.back-to-login {
+    color: transparent !important;
+}
+
+/* "Forgot your password" and "Signup" when hovered */
+.split-view .actions a:hover,
+.back-to-login:hover {
+    text-decoration: none;
+    color: transparent !important;
+}
