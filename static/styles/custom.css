@@ -34,6 +34,12 @@ ul.topic-list {
     color:white;
 }
 
+/* list of names in the expanded Private Messages list */
+ul.expanded_private_messages {
+  background-color: #1980a9;
+  color:white;
+}
+
 /* hover over items in the left column */
 .top_left_row:hover,
 .bottom_left_row:hover,
